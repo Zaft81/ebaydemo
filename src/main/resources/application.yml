@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: ebayDemo
+server:
+  port: 80
+
+
+sandbox-user:
+  username: testuser_count
+  password: 12345678!QAZ
+
+production-user:
+  username: dodomyjob
+  password: 12345678aa@
+
+api.sandbox.ebay.com:
+  appid: <appid-from-developer-portal>
+  certid: <certid-from-developer-portal>
+  devid: <devid-from-developer-portal>
+  redirecturi: http://xxx.xxx.xxx/order
+
+api.ebay.com:
+  appid: -getOrder-SBX-d2eae7200-ed275192
+  certid: SBX-2eae720081ce-1656-41b3-b6e2-4c3e
+  devid: 60aaab77-3d12-4e75-b766-117d01e32974
+  redirecturi: <redirect_uri-from-developer-portal>
